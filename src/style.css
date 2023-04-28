@@ -9,11 +9,12 @@ body {
   margin: 0px;
   background-image: url("./assets/img/bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
+  background-position: top;
 }
 a {
   text-decoration: none;
-  color: #000000;
+  color: #122537;
 }
 li {
   list-style-type: none;
@@ -30,7 +31,7 @@ p {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
-  color: #000000;
+  color: #122537;
 }
 .add_place {
   display: inline;
@@ -42,7 +43,7 @@ p {
   text-align: center;
   right: 60px;
   bottom: 64px;
-  background: #000000;
+  background: #122537;
   color: white;
   padding-top: 22px;
 }

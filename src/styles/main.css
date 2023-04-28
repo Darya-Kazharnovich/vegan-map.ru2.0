@@ -1,127 +1,144 @@
 .main {
   padding: 0 60px;
   flex: 1 1 auto;
-  padding-top: 47px;
+  padding-top: 90px;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
 .description {
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 48px;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 80px;
   display: flex;
   flex-direction: row;
-  background-image: url('../assets/img/main_img.png');
+  /* background-image: url('../assets/img/main_img.png');
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right; */
 }
 .description__text {
   max-width: 984px;
+  letter-spacing: -1px;
 }
 .title {
   font-weight: 800;
   font-size: 56px;
-  line-height: 72px;
+  line-height: 64px;
 }
 .title_logo {
   color: #FF78FD;
-  font-weight: 700;
-  font-size: 96px;
-  line-height: 136px;
-}
-.description__text_italic {
-  font-style: italic;
+  font-size: 72px;
 }
 .description__text_mail {
-  font-size: 20px;
-  line-height: 24px;
-  padding-top: 115px;
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 86px;
+  max-width: 425px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
 }
 .main__input {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-top: 25px;
+  padding-top: 30px;
 }
 .main__input_email {
-  width: 424px;
-  height: 72px;
+  width: 368px;
+  height: 56px;
   background: #E2E2E9;
   opacity: 0.54;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px 0 0 5px;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
 }
 .arrow {
-  width: 72px;
-  height: 72px;
+  width: 56px;
+  height: 56px;
   cursor: pointer;
 }
 .main__img {
+  position: absolute;
+  top: 320px;
+  right: 75px;
+  z-index: -1;
 }
 .idea {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(158.75deg, #9AE7FC 0.69%, #AC06F9 132.06%);
-  box-shadow: 16px 16px 56px rgba(160, 160, 252, 0.54);
+  background: linear-gradient(170.75deg, #9AE7FC 0.69%, #AC06F9 132.06%);
+  box-shadow: 16px 16px 56px rgba(160, 160, 252, 0.35);
   border-radius: 32px;
-  padding: 72px 52px 56px 86px;
-  margin-top: 56px;
+  padding: 40px 112px 48px 96px;
+  margin-top: 120px;
   color: #FFFFFF;
-  gap: 6.18vw;
+  gap: 5vw;
 }
 .idea__img {
-  width: 273px;
-  height: 235px;
+  width: 256px;
+  height: 256px;
 }
 .idea__description {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 30px;
   max-width: 57vw;
 }
 .idea__description_text {
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 133%;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.15px;;
 }
 .idea__description_link {
   width: fit-content;
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 2px solid rgba(255,255,255,0.27);
+  border: 2px solid rgba(245, 245, 247, 0.54);
   border-radius: 28px;
-  padding: 10px 20px 10px 20px;
+  padding: 12px 10px;
   gap: 8px;
   cursor: pointer;
+  margin-top: 15px;
 }
 .idea__description_a {
   color: #FFFFFF;
   font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
 }
 .telegram {
-  padding-top: 80px;
+  padding-top: 70px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+.telegram_bot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 100px;
 }
 .telegram__description {
-  font-size: 32px;
-  line-height: 48px;
-  padding: 40px 0 32px 0;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 32px 0 45px 0;
 }
-.telegram__description_bold {
+/* .telegram__description_bold {
   font-weight: 700;
-}
+} */
 .telegram-bot {
   color: #FF78FD;
+  letter-spacing: -2px;
 }
 .telegram__description_link {
   width: fit-content;
@@ -130,7 +147,7 @@
   align-items: center;
   border: 2px solid rgba(182,182,200,0.27);
   border-radius: 28px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 16px;
   gap: 8px;
   cursor: pointer;
   transition: 0.2s;
@@ -140,11 +157,13 @@
 }
 .telegram__description_a {
   font-weight: 700;
-  font-size: 24px;
-  line-height: 32px
+  font-size: 18px;
+  line-height: 24px
 }
 .telegram__img {
   display: flex;
+  height: 525px;
+  width: 435px;
 }
 .stage {
   padding-top: 50px;
