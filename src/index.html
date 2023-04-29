@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,100;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
   <title>Vegan map</title>
 </head>
 <body>
@@ -60,7 +60,7 @@
       </section>
       <section class="telegram">
         <div class="telegram_bot">
-          <p class="title">У нас есть <span class="telegram-bot">Телеграм-бот!</span></p>
+          <p class="title">У нас есть <span class="pink-text">Телеграм-бот!</span></p>
           <p class="telegram__description">Нашей картой уже можно пользоваться – у нас есть телеграм-бот.<br>Он ищет места по названию, адресу и вашей геопозиции.</p>
             <div class="telegram__description_link">
               <a class="telegram__description_a" href="https://t.me/VeganRussianMapBot">Перейти в Телеграм-бот</a>
@@ -72,22 +72,33 @@
       <section class="stage">
         <p class="title">На каком мы этапе?</p>
         <ul class="stage__list">
-          <li class="stage__link stage__link_active stage__link_website">Телеграм-бот</li>
-          <li class="stage__link stage__link_iOS">Сайт</li>
+          <li class="stage__link stage__link_active stage__link_Telegram">Телеграм-бот</li>
+          <li class="stage__link stage__link_website">Сайт</li>
           <li class="stage__link stage__link_Android">Android</li>
-          <li class="stage__link stage__link_Telegram">iOS</li>
+          <li class="stage__link stage__link_iOS">iOS</li>
         </ul>
-        <ul class="stage__progress">
-          <li>Создали админку и добавили первые места на карту</li>
-          <li>Продумали структуру сообщений бота</li>
-          <li>Разработали и запустили бот в Телеграме</li>
-          <li>Продолжаем дорабатывать и улучшать</li>
-        </ul>
+        <div class="stage__progress">
+          <div class="stage__progress_icons">
+            <img src="./assets/img/progressIconBase.svg" alt="stage progress">
+            <img class="vertical_line" src="./assets/img/verticalLine.svg" alt="verticalLine">
+            <img src="./assets/img/progressIconBase.svg" alt="stage progress">
+            <img class="vertical_line" src="./assets/img/verticalLine.svg" alt="verticalLine">
+            <img src="./assets/img/progressIconBase.svg" alt="stage progress">
+            <img class="vertical_line" src="./assets/img/verticalLine.svg" alt="verticalLine">
+            <img src="./assets/img/progressIconBaseHalf.svg" alt="stage progress">
+          </div>
+          <ul class="stage__progress_text">
+            <li>Создали админку и добавили первые места на карту</li>
+            <li>Продумали структуру сообщений бота</li>
+            <li>Разработали и запустили бот в Телеграме</li>
+            <li>Продолжаем дорабатывать и улучшать</li>
+          </ul>
+        </div>
       </section>
       <section class="new-place">
-        <div class="new-place__img"><img src="./assets/img/place.png" alt="new place"></div>
+        <div class="new-place__img"><img class="new-place-img" src="./assets/img/place_img.png" alt="new place"></div>
         <div class="new-place__description">
-          <p class="title">Как добавить новое место</p>
+          <p class="title">Как добавить <span class="pink-text">новое место</span></p>
           <p>Теперь есть два способа!</p>
           <div class="new-place__text">
             <p class="number">1</p>

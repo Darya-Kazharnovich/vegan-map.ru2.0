@@ -1,32 +1,33 @@
 const stageLink = document.querySelectorAll('.stage__link')
-const stageProgress = document.querySelector('.stage__progress')
+const stageProgressText = document.querySelector('.stage__progress_text')
 
 
 function changeStageProgress (event) {
-  if (event.target.classList.contains('stage__link_website')) {
-      stageProgress.innerHTML = `
+  if (event.target.classList.contains('stage__link_Telegram')) {
+    stageProgressText.innerHTML = `
       <li>Создали админку и добавили первые места на карту</li>
       <li>Продумали структуру сообщений бота</li>
       <li>Разработали и запустили бот в Телеграме</li>
       <li>Продолжаем дорабатывать и улучшать</li>`
   } else if (event.target.classList.contains('stage__link_iOS')) {
-      stageProgress.innerHTML = `
-      <li>iOS 1</li>
-      <li>iOS 2</li>
-      <li>iOS 3</li>
-      <li>iOS 3</li>`
+    stageProgressText.innerHTML = `
+      <li>Спланировали структуру</li>
+      <li>Сделали дизайн</li>
+      <li>Разрабатываем приложение с минимальным функционалом</li>
+      <li>Тестируем сырую сборку и фиксим проблемы</li>
+      <li>Запуск первой версии приложения</li>`
   } else if (event.target.classList.contains('stage__link_Android')) {
-      stageProgress.innerHTML = `
-      <li>Android 1</li>
-      <li>Android 2</li>
-      <li>Android 3</li>
-      <li>Android 3</li>`
-  } else if (event.target.classList.contains('stage__link_Telegram')) {
-      stageProgress.innerHTML = `
-      <li>Telegram 1</li>
-      <li>Telegram 2</li>
-      <li>Telegram 3</li>
-      <li>Telegram 3</li>`
+    stageProgressText.innerHTML = `
+      <li>Спланировали структуру</li>
+      <li>Сделали дизайн</li>
+      <li>Разрабатываем приложение с минимальным функционалом</li>
+      <li>Запуск первой версии приложения</li>`
+  } else if (event.target.classList.contains('stage__link_website')) {
+    stageProgressText.innerHTML = `
+      <li>Продумали MVP</li>
+      <li>Делаем дизайн</li>
+      <li>Разрабатываем минимальный функционал – карту</li>
+      <li>website 3</li>`
   }
 }
 

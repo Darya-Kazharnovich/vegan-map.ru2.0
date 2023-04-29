@@ -24,6 +24,7 @@
   font-weight: 800;
   font-size: 56px;
   line-height: 64px;
+  letter-spacing: -1px;
 }
 .title_logo {
   color: #FF78FD;
@@ -136,9 +137,8 @@
 /* .telegram__description_bold {
   font-weight: 700;
 } */
-.telegram-bot {
+.pink-text {
   color: #FF78FD;
-  letter-spacing: -2px;
 }
 .telegram__description_link {
   width: fit-content;
@@ -166,58 +166,95 @@
   width: 435px;
 }
 .stage {
-  padding-top: 50px;
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, #E5EEF8 0%, rgba(229, 238, 248, 0) 108.98%);
-  background-size: 100vw;
+  font-size: 18px;
+  /* background: linear-gradient(180deg, #E5EEF8 0%, rgba(229, 238, 248, 0) 108.98%);
+  background-size: 100vw; */
 }
 .stage__list {
   display: flex;
   flex-direction: row;
-  gap: 2.77vw;
+  letter-spacing: 0.5px;
+  gap: 2vw;
   padding: 40px 0 0 0;
-  border-bottom: 3px solid rgba(11,11,13,0.05);
+  border-bottom: 2px solid rgba(18,37,55,0.07);
 }
 .stage__link {
   cursor: pointer;
+  padding-bottom: 7px;
 }
 .stage__link_active {
-  border-bottom: 3px solid #1C1C20;
+  border-bottom: 2px solid #122537;;
 }
 .stage__progress {
-  padding: 70px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  width: 424px;
+}
+.stage__progress_icons {
   display: flex;
   flex-direction: column;
-  gap: 72px;
-  max-width: 424px;
+  align-items: center;
+}
+.vertical_line {
+  width: 2px;
+  height: 40px;
+}
+.stage__progress_text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 336px;
+  letter-spacing: 0.3px;
+  padding-left: 24px;
+  line-height: 24px;
+}
+.stage__progress_text > li {
+  height: 64px;
+  display: flex;
+  align-items: center;
 }
 .new-place {
   display: flex;
   flex-direction: row;
-  padding-top: 165px;
+  padding-top: 125px;
   gap: 90px;
 }
 .new-place__img {
-  padding-left: 40px;
-  padding-top: 100px;
+  /* padding-left: 40px;
+  padding-top: 100px; */
+  height: 393px;
+  width: 730px;
+}
+.new-place-img {
+  left: -5px;
+  position: absolute;
 }
 .new-place__description {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
+.new-place__description > p {
+  padding-left: 60px;
+}
 .new-place__text{
   display: flex;
   align-items: center;
   gap: 1.11vw;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
 }
 .number {
-  font-weight: 900;
+  font-weight: 100;
   font-size: 64px;
-  color: #E3A8F7;
+  color: #FF78FD;
 }
 .new-place__link {
   margin-left: 55px;
