@@ -5,6 +5,9 @@
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .description {
   font-weight: 800;
@@ -172,8 +175,9 @@
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  /* background: linear-gradient(180deg, #E5EEF8 0%, rgba(229, 238, 248, 0) 108.98%);
-  background-size: 100vw; */
+  background: linear-gradient(180deg, #E5EEF8 0%, rgba(229, 238, 248, 0) 108.98%);
+  background-size: 100%;
+  min-width: 100vw;
 }
 .stage__list {
   display: flex;
@@ -256,6 +260,17 @@
   font-size: 64px;
   color: #FF78FD;
 }
+.new-place__plus {
+  display: inline-block;
+  color: #FFF;
+  background-color: #000;
+  border-radius: 100%;
+  width: 24px;
+  height: 24px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
 .new-place__link {
   margin-left: 55px;
 }
@@ -266,6 +281,7 @@
   color: #FFFFFF;
   margin-top: 72px;
   padding: 72px 122px 45px 112px;
+  width: 1320px;
 }
 .FAQ {
   display: flex;
@@ -274,9 +290,9 @@
 }
 .FAQ_text {
   display: flex;
-  font-size: 32px;
   justify-content: space-between;
-  line-height: 48px;
+  font-size: 24px;
+  line-height: 32px;
   height: 100px;
   align-items: center;
 }
@@ -291,6 +307,9 @@
 }
 .FAQ__answer {
   display: none;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
 }
 .FAQ__answer_open{
   display: block;
