@@ -1,6 +1,6 @@
 .footer {
   background: #8A4BED;
-  margin-top: 72px;
+  margin-top: 110px;
 }
 .footer-wrapper {
   flex: 0 0 auto;
@@ -17,41 +17,52 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 32px;
+  padding-bottom: 50px;
   max-width: 1440px;
 }
 .footer__items {
   display: flex;
   flex-direction: column;
-  width: 33.333%;
+  /* width: 33.333%; */
   gap: 16px;
 }
 .footer__title {
   font-weight: 600;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 16px;
   letter-spacing: 0.005em;
   color: #FFFFFF;
-  opacity: 0.72;
+  opacity: 0.87;
+}
+.footer__l_wrap {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  max-height: 65px;
+  max-height: 100px;
+  gap: 16px;
 }
 .footer__link {
   color: #FFFFFF;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.1px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   width: fit-content;
 }
 .footer__l {
   color: #FFFFFF;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.005em;
+  opacity: 0.87;
 }
 .footer__footnotes_wrapper {
   font-weight: 600;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 16px;
   letter-spacing: 0.005em;
   background: rgba(0, 0, 0, 0.07);
   color: #FFFFFF;
@@ -61,7 +72,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  padding: 12px 60px;
+  padding: 23px 60px;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;

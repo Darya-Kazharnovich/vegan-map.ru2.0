@@ -7,7 +7,6 @@
   margin-right: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .description {
   font-weight: 800;
@@ -151,7 +150,7 @@
   border: 2px solid rgba(182,182,200,0.27);
   border-radius: 28px;
   padding: 10px 16px;
-  gap: 8px;
+  gap: 20px;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -177,7 +176,6 @@
   font-size: 18px;
   background: linear-gradient(180deg, #E5EEF8 0%, rgba(229, 238, 248, 0) 108.98%);
   background-size: 100%;
-  min-width: 100vw;
 }
 .stage__list {
   display: flex;
@@ -227,13 +225,13 @@
   display: flex;
   flex-direction: row;
   padding-top: 125px;
-  gap: 90px;
+  padding-bottom: 115px;
 }
 .new-place__img {
   /* padding-left: 40px;
   padding-top: 100px; */
-  height: 393px;
-  width: 730px;
+  /* height: 393px;
+  width: 730px; */
 }
 .new-place-img {
   left: -5px;
@@ -243,6 +241,8 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+  margin-left: 385px;
+  max-width: 830px;
 }
 .new-place__description > p {
   padding-left: 60px;
@@ -272,50 +272,51 @@
   text-align: center;
 }
 .new-place__link {
-  margin-left: 55px;
+  margin-left: 60px;
 }
 .FAQs {
   background: linear-gradient(191.06deg, #FE80FD -37.97%, #8A4BED 84.29%);
   box-shadow: 16px 16px 56px rgba(128, 70, 220, 0.27);
   border-radius: 32px;
   color: #FFFFFF;
-  margin-top: 72px;
-  padding: 72px 122px 45px 112px;
+  /* margin-top: 72px; */
+  padding: 40px 122px 15px 112px;
   width: 1320px;
 }
 .FAQ {
   display: flex;
   flex-direction: column;
   cursor: default;
+  letter-spacing: -0.3px;
 }
 .FAQ_text {
   display: flex;
   justify-content: space-between;
   font-size: 24px;
   line-height: 32px;
-  height: 100px;
+  height: 82px;
   align-items: center;
 }
 .plus {
   color: #F5F5F7;
-  font-size: 60px;
+  font-size: 35px;
   cursor: pointer;
 }
-.FAQ_2 {
+.FAQ__border {
   border-top: 3px solid rgba(245, 245, 247, 0.1);
-  border-bottom: 3px solid rgba(245, 245, 247, 0.1);
 }
 .FAQ__answer {
   display: none;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 30px;
   letter-spacing: 0.3px;
+  height: fit-content;
 }
 .FAQ__answer_open{
   display: block;
 }
 .distribution {
-  padding-top: 72px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -323,10 +324,11 @@
 }
 .distribution__text {
   font-weight: 600;
-  font-size: 32px;
-  line-height: 48px;
+  font-size: 24px;
+  line-height: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 30px;
+  letter-spacing: -0.5px;
 }

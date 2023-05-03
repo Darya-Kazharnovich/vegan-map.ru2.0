@@ -14,6 +14,23 @@
     <a class="add_place" href="https://cloud.yandex.ru/services/forms">+</a>
     <button class="to_top"><img src="./assets/img/to_top.png" alt="to top"></button>
     <header class="header">
+      <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+          (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+          m[i].l=1*new Date();
+          for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+          k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+          (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        
+          ym(92486394, "init", {
+               clickmap:true,
+               trackLinks:true,
+               accurateTrackBounce:true,
+               webvisor:true
+          });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/92486394" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+      <!-- /Yandex.Metrika counter -->
       <div class="logo"><img src="./assets/img/logo.png" alt="logo"></div>
       <nav>
           <ul class="navigation__menu">
@@ -62,7 +79,7 @@
           <p class="title">У нас есть <span class="pink-text">Телеграм-бот!</span></p>
           <p class="telegram__description">Нашей картой уже можно пользоваться – у нас есть телеграм-бот.<br>Он ищет места по названию, адресу и вашей геопозиции.</p>
             <div class="telegram__description_link">
-              <a class="telegram__description_a" href="https://t.me/VeganRussianMapBot">Перейти в Телеграм-бот</a>
+              <a class="telegram__description_a" href="https://vegan-map.ru/c/admin/">Перейти в Телеграм-бот</a>
               <img src="./assets/img/telegram-link.png" alt="arrow">
             </div>
         </div>
@@ -103,17 +120,16 @@
           <p>Теперь есть два способа!</p>
           <div class="new-place__text">
             <p class="number">1</p>
-            <p>Вы можете самостоятельно заполнить все необходимые данные
-              прямо в нашей админке.</p>
+            <p>Вы можете самостоятельно заполнить все необходимые данные прямо<br>
+              в нашей админке.</p>
           </div>
           <div class="telegram__description_link new-place__link">
-            <a class="telegram__description_a" href="https://t.me/VeganRussianMapBot">Перейти в админку</a>
+            <a class="telegram__description_a" href="https://vegan-map.ru/c/admin/">Перейти в админку</a>
             <img src="./assets/img/link-black.png" alt="arrow">
           </div>
           <div class="new-place__text">
             <p class="number">2</p>
-            <p>Или в свободной форме отправьте нам информацию о проверенной позиции в меню, кликнув на плюсик <span class="new-place__plus">+</span> в правом нижнем углу экрана, а наши модератор_ки сами добавят место на карту. 
-            <br>Главное указать город, название места и состав(ы).</p>
+            <p>Или в свободной форме отправьте нам информацию о проверенной позиции в меню, кликнув на плюсик <a href="mailto:hi@vegan-map.ru" class="new-place__plus">+</a> в правом нижнем углу экрана, а наши модератор_ки сами добавят место на карту. Главное указать город, название места и состав(ы).</p>
               
           </div>
         </div>
@@ -127,19 +143,26 @@
           </div>
           <p class="FAQ__answer FAQ__answer_1">Для того, чтобы обновить данные о месте, пришлите нам на почту mail@mail.com город, название заведения и информацию, которую необходимо исправить.</p>
         </div>
-        <div class="FAQ FAQ_2">
+        <div class="FAQ FAQ_2 FAQ__border">
           <div class="FAQ_text">
             <p>Как скоро добавленное место появится на карте?</p>
             <p class="plus plus_2">+</p>
           </div>
-          <p class="FAQ__answer FAQ__answer_2">Для того, чтобы обновить данные о месте, пришлите нам на почту mail@mail.com город, название заведения и информацию, которую необходимо исправить.</p>
+          <p class="FAQ__answer FAQ__answer_2">Мы – команда волонтёро_к и мы работаем над картой в свободное от основной работы времени. Мы стараемся публиковать новые места максимально оперативно, за несколько рабочих дней. Но этот срок может и увеличиться, так что просим терпения!</p>
         </div>
-        <div class="FAQ FAQ_3">
+        <div class="FAQ FAQ_3 FAQ__border">
           <div class="FAQ_text">
             <p >Можно ли редактировать место, которое сейчас на проверке?</p>
             <p class="plus plus_3">+</p>
           </div>
-          <p class="FAQ__answer FAQ__answer_3">Для того, чтобы обновить данные о месте, пришлите нам на почту mail@mail.com город, название заведения и информацию, которую необходимо исправить.</p>
+          <p class="FAQ__answer FAQ__answer_3">Вы можете редактировать своё место, пока его не перевели в статус «Опубликовано». Используйте статус «Черновик», пока не занесёте все данные.</p>
+        </div>
+        <div class="FAQ FAQ_4 FAQ__border">
+          <div class="FAQ_text">
+            <p >Почему моего бизнеса нет на карте?</p>
+            <p class="plus plus_4">+</p>
+          </div>
+          <p class="FAQ__answer FAQ__answer_4">Скорее всего, его никто не проверял. Все места добавляются волонтёр_ками, которые проверяют заведения по своей инициативе. Если вы хотите добавить себя на карту, свяжитесь с нами по почте.</p>
         </div>
       </section>
       <section class="distribution">
@@ -169,22 +192,23 @@
           <div class="footer__items">
             <p class="footer__title">Vegan Map</p>
             <a class="footer__link" href="https://t.me/VeganRussianMapBot">Телеграм-бот</a>
-            <a class="footer__link" href="https://t.me/veganrussianmap">Телеграм-канал о новых местах</a>
+            <a class="footer__link" href="https://t.me/veganrussianmap">Новости карты в Телеграме</a>
             <a class="footer__link" href="">Инстаграм*</a>
           </div>
           <div class="footer__items">
             <p class="footer__title">Полезные ресурсы</p>
-            <a class="footer__link" href="https://www.veganhoreca.ru/guide">Справочник ингредиентов</a>
-            <a class="footer__l" href="https://veganrussian.ru"><span class="footer__link">veganrussian.ru</span> – каталог веганских продуктов</a>
-            <a class="footer__l" href="https://barnivore.com"><span class="footer__link">barnivore.com</span> – алкоголь по вегану</a>
-            <a class="footer__l" href="https://dogfriendlymap.ru"><span class="footer__link">dogfriendlymap.ru</span> – места, где рады вам 
-              и вашим питомцам</a>
+            <div class="footer__l_wrap">
+              <a class="footer__l" href="https://www.veganhoreca.ru/guide"><span class="footer__link">veganhoreca.ru</span><br>Справочник ингредиентов</a>
+              <a class="footer__l" href="https://veganrussian.ru"><span class="footer__link">veganrussian.ru</span><br>Каталог веганских продуктов</a>
+              <a class="footer__l" href="https://barnivore.com"><span class="footer__link">barnivore.com</span><br>Алкоголь по вегану</a>
+              <a class="footer__l" href="https://dogfriendlymap.ru"><span class="footer__link">dogfriendlymap.ru</span><br>Места, где рады вам и вашим питомцам</a>  
+            </div>
           </div>
         </div>
       </div>
         <div class="footer__footnotes_wrapper">
           <div class="footer__footnotes">
-            <p>Vegan Russian © 2020 - 2023</p>
+            <p>Vegan Map 2021-2023</p>
             <a class="footer__footnotes_link" href="https://vegan-map.ru/policy.html">Политика обработки персональных данных</a>
             <p>*Meta признана экстремистской организацией в РФ</p>
           </div>
