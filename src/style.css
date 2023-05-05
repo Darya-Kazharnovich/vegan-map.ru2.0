@@ -11,6 +11,7 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: top;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;

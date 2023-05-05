@@ -16,3 +16,12 @@ FAQs.addEventListener('click', openTheAnswer)
 window.addEventListener('click', closeTheAnswer)
 window.addEventListener('scroll', scrollFunction)
 toUpButton.addEventListener('click', topFunction)
+
+
+// function getInputValue (event) {
+//     if (event.target.classList.contains('arrow')) {
+//         console.log(event.target.parentNode)
+//         // console.log(document.querySelector('.main__input_email').value)
+//     }
+// } 
+// window.addEventListener('click', getInputValue)

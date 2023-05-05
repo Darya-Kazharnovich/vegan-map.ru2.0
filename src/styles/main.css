@@ -1,12 +1,14 @@
 .main {
-  padding: 0 60px;
+  /* padding: 0 60px; */
   flex: 1 1 auto;
   padding-top: 90px;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: column;
+  width: 100vw;
+  align-items: center;
 }
 .description {
   font-weight: 800;
@@ -17,6 +19,8 @@
   /* background-image: url('../assets/img/main_img.png');
   background-repeat: no-repeat;
   background-position: right; */
+  width: 68.75vw;
+  max-width: 1320px;
 }
 .description__text {
   max-width: 984px;
@@ -80,6 +84,8 @@
   margin-top: 120px;
   color: #FFFFFF;
   gap: 5vw;
+  width: 68.75vw;
+  max-width: 1320px;
 }
 .idea__img {
   width: 256px;
@@ -123,6 +129,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 68.75vw;
+  max-width: 1320px;
 }
 .telegram_bot {
   display: flex;
@@ -147,7 +155,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 2px solid rgba(182,182,200,0.27);
+  border: 2px solid rgba(232,234,236,1);
   border-radius: 28px;
   padding: 10px 16px;
   gap: 20px;
@@ -176,6 +184,7 @@
   font-size: 18px;
   background: linear-gradient(180deg, #E5EEF8 0%, rgba(229, 238, 248, 0) 108.98%);
   background-size: 100%;
+  width: 100%;
 }
 .stage__list {
   display: flex;
@@ -226,6 +235,8 @@
   flex-direction: row;
   padding-top: 125px;
   padding-bottom: 115px;
+  width: 68.75vw;
+  max-width: 1320px;
 }
 .new-place__img {
   /* padding-left: 40px;
@@ -241,7 +252,7 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin-left: 385px;
+  margin-left: 20.02vw;
   max-width: 830px;
 }
 .new-place__description > p {
@@ -281,7 +292,8 @@
   color: #FFFFFF;
   /* margin-top: 72px; */
   padding: 40px 122px 15px 112px;
-  width: 1320px;
+  width: 68.75vw;
+  max-width: 1320px;
 }
 .FAQ {
   display: flex;
@@ -314,6 +326,7 @@
 }
 .FAQ__answer_open{
   display: block;
+  padding-bottom: 17px;
 }
 .distribution {
   padding-top: 100px;
