@@ -11,7 +11,7 @@
 <script defer src="bundle.js"></script></head>
 <body>
   <div class="wrapper">
-    <a class="add_place" href="https://cloud.yandex.ru/services/forms">+</a>
+    <a class="add_place" href="mailto:hi@vegan-map.ru">+</a>
     <button class="to_top"><img src="./assets/img/to_top.png" alt="to top"></button>
     <header class="header">
       <!-- Yandex.Metrika counter -->
@@ -46,7 +46,7 @@
       </div>
     </header>
     <main class="main">
-      <section class="description">
+      <section id="map" class="description">
         <div class="description__text">
           <span>Здесь будет</span>
           <span class="title title_logo">Vegan Map!</span>
@@ -62,7 +62,7 @@
         </div>
         <img class="main__img" src="./assets/img/main_img.png" alt="map">
       </section>
-      <section class="idea">
+      <section id="idea" class="idea">
         <div class="idea__img"><img src="./assets/img/idea.png" alt="idea img"></div>
         <div class="idea__description">
           <p class="title">Идея карты</p>
@@ -74,7 +74,7 @@
           </div>
         </div>
       </section>
-      <section class="telegram">
+      <section id="telegram" class="telegram">
         <div class="telegram_bot">
           <p class="title">У нас есть <span class="pink-text">Телеграм-бот!</span></p>
           <p class="telegram__description">Нашей картой уже можно пользоваться – у нас есть телеграм-бот.<br>Он ищет места по названию, адресу и вашей геопозиции.</p>
@@ -85,7 +85,7 @@
         </div>
         <div class="telegram__img"><img src="./assets/img/telegram.png" alt="telegram image"></div>
       </section>
-      <section class="stage">
+      <section id="stage" class="stage">
         <p class="title">На каком мы этапе?</p>
         <ul class="stage__list">
           <li class="stage__link stage__link_active stage__link_Telegram">Телеграм-бот</li>
@@ -95,13 +95,13 @@
         </ul>
         <div class="stage__progress">
           <div class="stage__progress_icons">
-            <img src="./assets/img/progressIconBase.svg" alt="stage progress">
-            <img class="vertical_line" src="./assets/img/verticalLine.svg" alt="verticalLine">
-            <img src="./assets/img/progressIconBase.svg" alt="stage progress">
-            <img class="vertical_line" src="./assets/img/verticalLine.svg" alt="verticalLine">
-            <img src="./assets/img/progressIconBase.svg" alt="stage progress">
-            <img class="vertical_line" src="./assets/img/verticalLine.svg" alt="verticalLine">
-            <img src="./assets/img/progressIconBaseHalf.svg" alt="stage progress">
+            <img src="./assets/img/done.svg" alt="stage progress">
+            <img class="vertical_line" src="./assets/img/verticalLinepink.svg" alt="verticalLine">
+            <img src="./assets/img/done.svg" alt="stage progress">
+            <img class="vertical_line" src="./assets/img/verticalLinepink.svg" alt="verticalLine">
+            <img src="./assets/img/done.svg" alt="stage progress">
+            <img class="vertical_line" src="./assets/img/verticalLinepink.svg" alt="verticalLine">
+            <img src="./assets/img/progress.svg" alt="stage progress">
           </div>
           <ul class="stage__progress_text">
             <li>Создали админку и добавили первые места на карту</li>
@@ -111,7 +111,7 @@
           </ul>
         </div>
       </section>
-      <section class="new-place">
+      <section id="new_place" class="new-place">
         <div class="new-place__img">
           <img class="new-place-img" src="./assets/img/place_img.png" alt="new place">
         </div>
@@ -134,7 +134,7 @@
           </div>
         </div>
       </section>
-      <section class="FAQs">
+      <section id="FAQs" class="FAQs">
         <p class="title">Частые вопросы</p>
         <div class="FAQ FAQ_1">
           <div class="FAQ_text">
@@ -182,12 +182,12 @@
         <div class="footer__links">
           <div class="footer__items">
             <p class="footer__title">Карта сайта</p>
-            <a class="footer__link" href="">О карте</a>
-            <a class="footer__link" href="">Идея карты</a>
-            <a class="footer__link" href="">У нас есть телеграм-бот!</a>
-            <a class="footer__link" href="">На каком мы этапе</a>
-            <a class="footer__link" href="">Как добавить новое место</a>
-            <a class="footer__link" href="">Частые вопросы</a>
+            <a class="footer__link" href="#map">О карте</a>
+            <a class="footer__link" href="#idea">Идея карты</a>
+            <a class="footer__link" href="#telegram">У нас есть телеграм-бот!</a>
+            <a class="footer__link" href="#stage">На каком мы этапе</a>
+            <a class="footer__link" href="#new_place">Как добавить новое место</a>
+            <a class="footer__link" href="#FAQs">Частые вопросы</a>
           </div>
           <div class="footer__items">
             <p class="footer__title">Vegan Map</p>
