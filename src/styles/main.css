@@ -19,7 +19,7 @@
   /* background-image: url('../assets/img/main_img.png');
   background-repeat: no-repeat;
   background-position: right; */
-  width: 68.75vw;
+  width: 1440px;
   max-width: 1320px;
 }
 .description__text {
@@ -84,7 +84,7 @@
   margin-top: 120px;
   color: #FFFFFF;
   gap: 5vw;
-  width: 68.75vw;
+  width: 1440px;
   max-width: 1320px;
 }
 .idea__img {
@@ -129,7 +129,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 68.75vw;
+  width: 1440px;
   max-width: 1320px;
 }
 .telegram_bot {
@@ -235,7 +235,7 @@
   flex-direction: row;
   padding-top: 125px;
   padding-bottom: 115px;
-  width: 68.75vw;
+  width: 1440px;
   max-width: 1320px;
 }
 .new-place__img {
@@ -292,7 +292,7 @@
   color: #FFFFFF;
   /* margin-top: 72px; */
   padding: 40px 122px 15px 112px;
-  width: 68.75vw;
+  width: 1440px;
   max-width: 1320px;
 }
 .FAQ {
