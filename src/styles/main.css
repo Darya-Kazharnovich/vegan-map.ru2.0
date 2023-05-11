@@ -48,7 +48,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 32px;
 }
 .main__input_email {
   width: 368px;
@@ -112,7 +112,7 @@
   align-items: center;
   border: 2px solid rgba(245, 245, 247, 0.54);
   border-radius: 28px;
-  padding: 12px 10px;
+  padding: 10px 10px;
   gap: 8px;
   cursor: pointer;
   margin-top: 15px;
@@ -142,7 +142,8 @@
 .telegram__description {
   font-size: 24px;
   line-height: 32px;
-  padding: 32px 0 45px 0;
+  padding: 40px 0;
+  letter-spacing: -0.4px;
 }
 /* .telegram__description_bold {
   font-weight: 700;
@@ -176,7 +177,7 @@
   width: 435px;
 }
 .stage {
-  padding-top: 40px;
+  padding-top: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -190,8 +191,8 @@
   display: flex;
   flex-direction: row;
   letter-spacing: 0.5px;
-  gap: 2vw;
-  padding: 40px 0 0 0;
+  gap: 2.1vw;
+  padding: 37px 0 0 0;
   border-bottom: 2px solid rgba(18,37,55,0.07);
 }
 .stage__link {
@@ -251,7 +252,7 @@
 .new-place__description {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 33px;
   margin-left: 20.02vw;
   max-width: 830px;
 }
@@ -306,7 +307,7 @@
   justify-content: space-between;
   font-size: 24px;
   line-height: 32px;
-  height: 82px;
+  height: 80px;
   align-items: center;
 }
 .plus {
@@ -342,6 +343,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 36px;
   letter-spacing: -0.5px;
 }

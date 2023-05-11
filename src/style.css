@@ -12,6 +12,7 @@ body {
   background-size: auto;
   background-position: top;
   overflow-x: hidden;
+  overflow-y: overlay;
 }
 a {
   text-decoration: none;
