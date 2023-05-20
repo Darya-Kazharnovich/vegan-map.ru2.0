@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx webpack --mode production",
-    "start": "npx webpack --mode development"
+    "build": "npx webpack --mode production --inline",
+    "start": "npx webpack --mode development --watch --progress"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Vegan-Russian/vegan-map.ru2.0#readme",
   "devDependencies": {
+    "auto-reload-webpack-plugin": "^1.1.0",
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.3",

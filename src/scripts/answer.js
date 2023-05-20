@@ -4,49 +4,17 @@ const answerFAQ3 = document.querySelector('.FAQ__answer_3')
 const answerFAQ4 = document.querySelector('.FAQ__answer_4')
 
 export function openTheAnswer (event) {
-  if (event.target.classList.contains('plus') && event.target.innerHTML==='+') {
-      event.target.classList.add('minus')
-      if (event.target.classList.contains('plus_1')) {
-          event.target.classList.toggle('minus_1')
-          answerFAQ1.classList.add('FAQ__answer_open')
-          document.querySelector('.plus_1').innerHTML = `–`
-      } else if (event.target.classList.contains('plus_2')) {
-          event.target.classList.toggle('minus_2')
-          answerFAQ2.classList.add('FAQ__answer_open')
-          document.querySelector('.plus_2').innerHTML = `–`
-      } else if (event.target.classList.contains('plus_3')) {
-          event.target.classList.toggle('minus_3')
-          answerFAQ3.classList.add('FAQ__answer_open')
-          document.querySelector('.plus_3').innerHTML = `–`
-      } else if (event.target.classList.contains('plus_4')) {
-          event.target.classList.toggle('minus_4')
-          answerFAQ4.classList.add('FAQ__answer_open')
-          document.querySelector('.plus_4').innerHTML = `–`
+    if (event.target.parentNode.classList.contains('FAQ_1')) {
+        answerFAQ1.classList.toggle('FAQ__answer_open')
+        answerFAQ1.classList.contains('FAQ__answer_open')? document.querySelector('.plus_1').innerHTML = `-` : document.querySelector('.plus_1').innerHTML = `+`
+    } else if (event.target.parentNode.classList.contains('FAQ_2')) {
+        answerFAQ2.classList.toggle('FAQ__answer_open')
+        answerFAQ2.classList.contains('FAQ__answer_open')? document.querySelector('.plus_2').innerHTML = `-` : document.querySelector('.plus_2').innerHTML = `+`
+    } else if (event.target.parentNode.classList.contains('FAQ_3')) {
+        answerFAQ3.classList.toggle('FAQ__answer_open')
+        answerFAQ3.classList.contains('FAQ__answer_open')? document.querySelector('.plus_3').innerHTML = `-` : document.querySelector('.plus_3').innerHTML = `+`
+    } else if (event.target.parentNode.classList.contains('FAQ_4')) {
+        answerFAQ4.classList.toggle('FAQ__answer_open')
+        answerFAQ4.classList.contains('FAQ__answer_open')? document.querySelector('.plus_4').innerHTML = `-` : document.querySelector('.plus_4').innerHTML = `+`
     }
-      event.stopPropagation()
-  }
-}
-
-export function closeTheAnswer (event) {
-  if (event.target.classList.contains('minus') && event.target.innerHTML==='–') {
-      event.target.classList.remove('minus')
-      if (event.target.classList.contains('minus_1')) {
-      event.target.classList.remove('minus_1')
-      answerFAQ1.classList.remove('FAQ__answer_open')
-      document.querySelector('.plus_1').innerHTML = `+`
-      } else if (event.target.classList.contains('minus_2')) {
-          event.target.classList.remove('minus_2')
-          answerFAQ2.classList.remove('FAQ__answer_open')
-          document.querySelector('.plus_2').innerHTML = `+`
-      } else if (event.target.classList.contains('minus_3')) {
-          event.target.classList.remove('minus_3')
-          answerFAQ3.classList.remove('FAQ__answer_open')
-          document.querySelector('.plus_3').innerHTML = `+`
-      } else if (event.target.classList.contains('minus_4')) {
-          event.target.classList.remove('minus_4')
-          answerFAQ4.classList.remove('FAQ__answer_open')
-          document.querySelector('.plus_4').innerHTML = `+`
-    }
-      event.stopPropagation()
-  }
 }
