@@ -7,7 +7,7 @@ body {
   min-height: 100%;
   scroll-behavior: smooth;
   margin: 0px;
-  background-image: url("./assets/img/bg.png");
+  background-image: url("./assets/img/bg.svg");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: top;

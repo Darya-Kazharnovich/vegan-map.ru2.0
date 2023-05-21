@@ -47,6 +47,14 @@
   row-gap: 13px;
   column-gap: 137px;
 }
+.footer__l {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  opacity: 0.87;
+}
 .footer__link {
   color: #FFFFFF;
   font-weight: 500;
@@ -55,14 +63,7 @@
   letter-spacing: 0.1px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   width: fit-content;
-}
-.footer__l {
-  color: #FFFFFF;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 22px;
-  letter-spacing: 0.005em;
-  opacity: 0.87;
+  opacity: 1;
 }
 .footer__footnotes_wrapper {
   font-weight: 600;
@@ -87,4 +88,5 @@
   color: #FFFFFF;
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   margin-left: 220px;
+  padding-bottom: 4px;
 }
