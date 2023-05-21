@@ -302,6 +302,8 @@
   background-image: url('../assets/img/add_new_place_icon.svg');
   width: 24px;
   height: 24px;
+  position: absolute;
+  margin-left: -25px;
 }
 .new-place__link {
   margin-left: 60px;
