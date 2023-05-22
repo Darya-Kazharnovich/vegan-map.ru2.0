@@ -24,6 +24,10 @@ li {
 p {
   cursor: default;
 }
+button {
+  border: none;
+  padding: 0px;
+}
 .wrapper {
   min-height: 100%;
   display: flex;

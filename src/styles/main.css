@@ -50,6 +50,10 @@
   align-items: center;
   padding-top: 32px;
 }
+.email-form {
+  display: flex;
+  flex-direction: row;
+}
 .main__input_email {
   font-family: 'Nunito';
   font-style: normal;
