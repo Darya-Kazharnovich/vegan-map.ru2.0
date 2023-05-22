@@ -174,9 +174,11 @@
           <p>Обещаем писать только по делу 🙌</p>  
         </div>
         <div class="main__input">
-          <input placeholder="your@mail.com" class="main__input_email" type="email">
-          <img class="arrow" src="./assets/img/arrow.svg" alt="arrow">
-        </div>
+          <form id="email-form2" class="email-form" method="POST" action="https://script.google.com/macros/s/AKfycbyLgJ2Xh5_a_JnvX-T-uks5E33rxEFjAV75PuhQDa0wcv9Gy2Q4yqZ8RjPad8QQJ-fCww/exec">
+            <input id="email" placeholder="your@mail.com" name="email" class="main__input_email" type="email">
+            <button id="button-form" type="submit"><img class="arrow" src="./assets/img/arrow.svg" alt="arrow"></button>
+          </form>
+      </div>
       </section>
     </main>
     <footer class="footer">
