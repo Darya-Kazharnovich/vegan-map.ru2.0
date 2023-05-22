@@ -35,6 +35,11 @@ p {
   line-height: 32px;
   color: #122537;
 }
+@media (max-width: 1439px) {
+  .wrapper {
+    display: none;
+  }
+}
 .add_place {
   display: inline-block;
   background-image: url('./assets/img/add_new_place.svg');
