@@ -27,6 +27,7 @@ p {
 button {
   border: none;
   padding: 0px;
+  height: 0px;
 }
 .wrapper {
   min-height: 100%;
