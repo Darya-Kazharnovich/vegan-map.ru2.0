@@ -1,8 +1,6 @@
 .main {
-  /* padding: 0 60px; */
   flex: 1 1 auto;
   padding-top: 90px;
-  /* max-width: 1440px; */
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -16,9 +14,6 @@
   line-height: 80px;
   display: flex;
   flex-direction: row;
-  /* background-image: url('../assets/img/main_img.png');
-  background-repeat: no-repeat;
-  background-position: right; */
   width: 1440px;
   max-width: 1320px;
 }
@@ -170,9 +165,6 @@
   padding: 40px 0;
   letter-spacing: -0.4px;
 }
-/* .telegram__description_bold {
-  font-weight: 700;
-} */
 .pink-text {
   color: #FF78FD;
 }
@@ -317,7 +309,6 @@
   box-shadow: 16px 16px 56px rgba(128, 70, 220, 0.27);
   border-radius: 32px;
   color: #FFFFFF;
-  /* margin-top: 72px; */
   padding: 40px 122px 15px 112px;
   width: 1440px;
   max-width: 1320px;

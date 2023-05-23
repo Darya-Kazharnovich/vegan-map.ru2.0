@@ -39,11 +39,6 @@ button {
   line-height: 32px;
   color: #122537;
 }
-@media (max-width: 1439px) {
-  .wrapper {
-    display: none;
-  }
-}
 .add_place {
   display: inline-block;
   background-image: url('./assets/img/add_new_place.svg');
@@ -66,4 +61,29 @@ button {
   cursor: pointer;
   opacity: 0.72;
   box-shadow: 0px 8px 32px rgba(18, 37, 55, 0.17);
+}
+@media (max-width: 1439px) {
+  body {
+    background-image: url("./assets/img/bg768.svg");
+  }
+  .wrapper {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .add_place {
+    right: 36px;
+    width: 56px;
+    height: 56px;
+    background-image: url('./assets/img/add_new_place768.svg');
+  }
+  .to_top {
+    width: 56px;
+    height: 56px;
+    bottom: 130px;
+    right: 36px;
+  }
+  .to_top > img {
+    width: 16.33px;
+    height: 9.33px;
+  }
 }

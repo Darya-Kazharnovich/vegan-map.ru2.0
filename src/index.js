@@ -1,6 +1,8 @@
 import './style.css'
 import './styles/header.css'
+import './styles/header768.css'
 import './styles/main.css'
+import './styles/main768.css'
 import './styles/footer.css'
 import {addStageLinkActive} from './scripts/changeStageProgress'
 import {openTheAnswer} from './scripts/answer'
