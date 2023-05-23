@@ -74,12 +74,13 @@ button {
     right: 36px;
     width: 56px;
     height: 56px;
+    bottom: 40px;
     background-image: url('./assets/img/add_new_place768.svg');
   }
   .to_top {
     width: 56px;
     height: 56px;
-    bottom: 130px;
+    bottom: 110px;
     right: 36px;
   }
   .to_top > img {

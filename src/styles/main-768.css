@@ -1,0 +1,188 @@
+@media (max-width: 1439px) {
+    .main {
+      padding-top: 64px;  
+    }
+    .description , .description__text > .title {
+      font-size: 56px;
+      line-height: 64px;
+      width: calc(100% - 72px);
+      letter-spacing: 0px;
+    }
+    .description__text {
+      width: 63vw;
+      letter-spacing: 0px;
+      max-width: 515px;
+    }
+    .title {
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: 0px;
+    }
+    .description__text_mail {
+      font-size: 18px;
+      line-height: 24px;
+      padding-top: 128px;
+      max-width: 296px;
+      letter-spacing: 0px;      
+    }
+    .idea__description_link {
+      padding: 6px 12px;
+    }
+    .main__input_email {
+      width: 240px;
+    }
+    .main__img {
+      top: 356px;
+      right: 0px;
+      width: 536px;
+      height: 310px;
+      z-index: -1;
+    }
+    .idea {
+      padding: 32px 32px 40px 32px;
+      margin-top: 75px;
+      gap: 32px;
+      width: calc(100% - 72px);
+      letter-spacing: 0px;
+    }
+    .idea__img , .idea__img > img {
+      width: 17.58vw;
+      height: 17.58vw;
+    }
+    .idea__description {
+      gap: 16px;
+      max-width: 60vw;
+    }
+    .idea__description_text {
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.15px;;
+    }
+    .idea__description_a {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .telegram {
+      padding-top: 70px;
+      width: calc(100% - 72px);
+      justify-content: center;
+    }
+    .telegram_bot {
+      padding-top: 30px;
+    }
+    .telegram_bot > .title {
+      width: 45vw;
+      max-width: 290px;
+    }
+    .telegram_bot > p:nth-child(2) {
+      max-width: 460px;
+    }
+    .telegram__description {
+      font-size: 18px;
+      line-height: 24px;
+      padding: 24px 0 32px 0;
+    }
+    .telegram__description_a {
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0px;
+    }
+    .telegram__description_link {
+      padding: 8px 12px;
+    }
+    .telegram__img, .telegram__img > img {
+      height: 400px;
+      width: 296px;
+      position: relative;
+      left: 43px;
+      z-index: -1;
+    }
+    .stage {
+      padding-top: 32px;
+    }
+    .stage__list {
+      padding-top: 32px;
+    }
+    .stage__link {
+      font-size: 16px;
+      line-height: 20px;
+      padding-bottom: 13px;
+    }
+    .stage__progress {
+      padding-top: 32px;
+      width: 49vw;
+      justify-content: center;
+    }
+    .new-place {
+      padding-top: 27px;
+      padding-bottom: 65px;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      gap: 53px;
+    }
+    .new-place__img {
+      background-image: url('../assets/img/new-place-img768.svg');
+      width: 561px;
+      height: 324px;
+    }
+    .new-place-img {
+      display: none;
+    }
+    .new-place__description {
+      gap: 24px;
+      margin-left: 0px;
+      max-width: 87vw;
+      align-items: center;
+    }
+    .new-place__description:nth-child(2) {
+      font-size: 24px;
+    }
+    .new-place__description > p {
+      padding-left: 0px;
+    }
+    .new-place__text{
+      width: 84vw;
+      text-align: justify;
+      max-width: 850px;
+    }
+    .number {
+      font-size: 42px;
+    }
+    .new-place__link {
+      margin-left: 50px;
+      align-self: flex-start;
+    }
+    .FAQs {
+      padding: 32px 40px;
+      width: calc(100% - 72px);
+    }
+    .FAQ_text {
+      font-size: 18px;
+      line-height: 24px;
+      height: 66px;
+    }
+    .FAQ_text > p {
+      cursor: pointer;
+    }
+    .plus {
+      font-size: 35px;
+    }
+    .FAQ__answer {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .FAQ__answer_open{
+      padding-bottom: 17px;
+    }
+      .distribution {
+        padding-top: 64px;
+      }
+      .distribution__text {
+        font-size: 18px;
+        line-height: 24px;
+        padding-top: 32px;
+        text-align: center;
+        width: 50vw;
+      }
+}
