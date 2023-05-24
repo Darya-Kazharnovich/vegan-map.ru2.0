@@ -3,14 +3,10 @@
       height: 96px;
       padding: 0 36px;
     }
-    .logo {
+    .logo, .logo > a > img {
       height: 56px;
       width: 62px;
       left: 36px;
-    }
-    .logo > a > img{
-      height: 56px;
-      width: 62px;
     }
     .navigation__menu {
       font-size: 16px;

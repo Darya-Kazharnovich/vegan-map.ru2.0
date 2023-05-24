@@ -89,3 +89,19 @@ button {
     height: 9.33px;
   }
 }
+@media (max-width: 767px) {
+  body {
+    background-image: url("./assets/img/bg375.svg");
+  }
+  html.hidden {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+  .add_place {
+    right: 24px;
+  }
+  .to_top {
+    right: 24px;
+  }
+}
