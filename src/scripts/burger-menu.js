@@ -4,6 +4,7 @@ export function openBurgerMenu (event) {
     document.querySelector('.navigation__menu').classList.toggle('active')
     document.querySelector('.overlay').classList.toggle('active')
     document.getElementsByTagName('html')[0].classList.toggle('hidden')
+    document.querySelectorAll('.burger__line').forEach(e => e.classList.toggle('active'))
     }
 }
 
