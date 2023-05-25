@@ -4,7 +4,7 @@ const answerFAQ3 = document.querySelector('.FAQ__answer_3')
 const answerFAQ4 = document.querySelector('.FAQ__answer_4')
 
 export function openTheAnswer (event) {
-    if (event.target.parentNode.classList.contains('FAQ_1')) {
+    if (event.target.parentNode.classList.contains('FAQ_1') && !event.target.classList.contains('FAQ__answer_open')) {
         answerFAQ1.classList.toggle('FAQ__answer_open')
         answerFAQ1.classList.contains('FAQ__answer_open')? document.querySelector('.plus_1').innerHTML = `-` : document.querySelector('.plus_1').innerHTML = `+`
     } else if (event.target.parentNode.classList.contains('FAQ_2')) {
