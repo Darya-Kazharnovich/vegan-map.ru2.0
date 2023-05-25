@@ -301,7 +301,7 @@
   color: #FF78FD;
 }
 .new-place__plus {
-  display: inline-block;
+  display: none;
   background-image: url('../assets/img/add_new_place_icon.svg');
   width: 24px;
   height: 24px;
