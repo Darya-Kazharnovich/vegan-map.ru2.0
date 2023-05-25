@@ -18,5 +18,6 @@ export function closeBurgerMenu (event) {
         document.querySelector('.navigation__menu').classList.remove('active')
         document.querySelector('.overlay').classList.remove('active')
         document.getElementsByTagName('html')[0].classList.remove('hidden')
+        document.querySelectorAll('.burger__line').forEach(e => e.classList.remove('active'))
     }
 }
